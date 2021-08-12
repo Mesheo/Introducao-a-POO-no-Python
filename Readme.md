@@ -99,3 +99,21 @@ class ContaBancaria:
 ```
 O termo ***"self"*** (que em outras linguagens pode ser representado como __"this"__) armazena a referência do endereço de memória onde está nosso objeto e, portanto, faz com que seja necessário acessar todos os atributos e métodos a partir dele. 
 Isso garante com que todas as caractéristicas de um objeto estejam anexadas a ele mesmo e sejam impossíveis de serem acessadas fora da classe em questão. 
+
+```py
+class Objeto:
+    def self_oque(self):
+        print(self)
+
+objeto1 = Objeto()
+objeto1.self_oque() #<__main__.Conta object at 0x000001DC0D951D60> 
+```
+### Instanciando uma Conta
+```py
+conta1 = ContaBancaria(111, "Roberto")
+conta1.extrato()
+conta1.sacar(200)
+conta1.depositar(250)
+```
+Output:
+![output](https://user-images.githubusercontent.com/71408872/129204974-a97f7ef0-1afd-4f92-a54a-08a4788f5ce2.png)
