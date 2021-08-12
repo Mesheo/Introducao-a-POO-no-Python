@@ -15,7 +15,7 @@ class ContaBancaria:
             self.saldo -= valor
             print(f"Saque de R${valor} realizado, agora seu saldo é de R${self.saldo}")
     
-    # Método para sacar um certo valor
+    # Método para depositar um certo valor
     def depositar(self, valor):
         print("\nRealizando depósito...")
         self.saldo += valor

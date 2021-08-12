@@ -86,7 +86,7 @@ class ContaBancaria:
             self.saldo -= valor
             print(f"Saque de R${valor} realizado, agora seu saldo é de R${self.saldo}")
     
-    # Método para sacar um certo valor
+    # Método para depositar um certo valor
     def depositar(self, valor):
         print("\nRealizando depósito...")
         self.saldo += valor
@@ -97,8 +97,7 @@ class ContaBancaria:
         print("\nColetando extrato...")
         print(f"Seu saldo atual é de R${self.saldo}")
 ```
-O termo ***"self"*** (que em outras linguagens pode ser representado como __"this"__) armazena a referência do endereço de memória onde está nosso objeto e, portanto, faz com que seja necessário acessar todos os atributos e métodos a partir dele. 
-Isso garante com que todas as caractéristicas de um objeto estejam anexadas a ele mesmo e sejam impossíveis de serem acessadas fora da classe em questão. 
+O termo *__"self"__* (que em outras linguagens pode ser representado como __"this"__) armazena a referência do endereço de memória onde está nosso objeto e, portanto, faz com que seja necessário acessar todos os atributos e métodos a partir dele. Isso assegura que todas as propriedades de um objeto estejam anexadas a ele mesmo e torna impossível acessá-las fora da classe em questão.
 
 ```py
 class Objeto:
