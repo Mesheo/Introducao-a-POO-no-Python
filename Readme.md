@@ -81,7 +81,7 @@ class ContaBancaria:
     def sacar(self, valor):
         print("\nRealizando saque...")
         if (self.saldo - valor) < 0:  
-            print(f"Saque não realizado, dinheiro insuficiente na conta")
+            print(f"Saque não realizado {self.titular}, dinheiro insuficiente na conta")
         else:
             self.saldo -= valor
             print(f"Saque de R${valor} realizado, agora seu saldo é de R${self.saldo}")
@@ -116,4 +116,4 @@ conta1.sacar(200)
 conta1.depositar(250)
 ```
 Output:
-![output](https://user-images.githubusercontent.com/71408872/129204974-a97f7ef0-1afd-4f92-a54a-08a4788f5ce2.png)
+![output](https://user-images.githubusercontent.com/71408872/129205278-6fa7fa69-246a-4214-b038-70c6740cba52.png)
