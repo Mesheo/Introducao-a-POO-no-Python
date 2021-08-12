@@ -64,5 +64,5 @@ carro1.quantas_rodas()
 # Output: 66
 ```
 
-Em resumo, o  ***Default constructor** não aceita parâmetros na hora de sua criação e pode instanciar objetos com atributos predefinidos sem o usuário escrever argumentos na hora de chamar a classe. 
-No caso do ***Parameterized constructor, é necessário que o usuário passe argumentos na hora de instanciar um novo objeto. Somente assim o constructor terá as informações a serem assinaladas nos atributos iniciais.
+Em resumo, o  ***Default constructor*** não aceita parâmetros na hora de sua criação e pode instanciar objetos com atributos predefinidos sem o usuário escrever argumentos na hora de chamar a classe. 
+No caso do ***Parameterized constructor***, é necessário que o usuário passe argumentos na hora de instanciar um novo objeto. Somente assim o constructor terá as informações a serem assinaladas nos atributos iniciais.
