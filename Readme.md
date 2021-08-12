@@ -1,5 +1,5 @@
 ### Conta Bancária em POO 
-![imagem-exemplo](https://prnt.sc/1neo3ni)
+![imagem-exemplo](https://user-images.githubusercontent.com/71408872/129200259-3fc842af-7e93-438b-bfba-b704f1d3947c.jpg)
 
 
 # 📚 Conteúdo
