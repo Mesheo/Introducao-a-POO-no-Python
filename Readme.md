@@ -39,11 +39,11 @@ Existem dois tipos de construtores:
 * Default Constructor
 ```py
 class Carro:
-		#constructor sem argumentos
-		def __init__(self):
-				self.quantidade_de_rodas = 4
-		def quantas_rodas(self):
-				print(self.quantidade_de_rodas)
+    #constructor sem argumentos
+    def __init__(self):
+        self.quantidade_de_rodas = 4
+    def quantas_rodas(self):
+        print(self.quantidade_de_rodas)
 
 carro1 = Carro()
 carro1.quantas_rodas() 
@@ -53,11 +53,11 @@ carro1.quantas_rodas()
 * Parameterized constructor
 ```py
 class Carro:
-		#constructor com argumentos 
-		def __init__(self, qtd_rodas):
-				self.quantidade_de_rodas = qtd_rodas 
-		def quantas_rodas(self):
-				print(self.quantidade_de_rodas)
+    #constructor com argumentos 
+    def __init__(self, qtd_rodas):
+        self.quantidade_de_rodas = qtd_rodas 
+    def quantas_rodas(self):
+        print(self.quantidade_de_rodas)
 
 carro1 = Carro(66)
 carro1.quantas_rodas()
