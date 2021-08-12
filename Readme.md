@@ -1,3 +1,6 @@
+# LEIA ESSE TEXTO NO MEDIUM!
+link: ![medium.com/michel-ledig/uma-breve-introducao-as-classes-no-python](https://medium.com/@m.ledig.mic/breve-introdu%C3%A7%C3%A3o-as-classes-no-python-36a2fcb99b2e)
+
 ### Conta Bancária em POO 
 ![imagem-exemplo](https://user-images.githubusercontent.com/71408872/129200259-3fc842af-7e93-438b-bfba-b704f1d3947c.jpg)
 
@@ -120,3 +123,8 @@ Output:
 >Orientação a objetos é um assunto muito interessante e extenso que vale a pena pesquisar a respeito se você é inserido no mundo da programação.
 >Quem teve essa brilhante ideia foi Alan Kay que além de matemático era biólogo (Isso explica bastante coisa…)
 >Espero que esse material simples possa ajudar alguém a dar os primeiros passos no tópico
+
+#### Referencias
+![Introdução à Programação Orientada a Objetos (POO)](https://www.ev.org.br/cursos/introducao-a-programacao-orientada-a-objetos-poo#:~:text=A%20Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos,com%20estrutura%20e%20comportamentos%20pr%C3%B3prios.)
+![História do Alan key](https://pt.wikipedia.org/wiki/Alan_Kay)
+![Documentação de Classes do python](https://docs.python.org/pt-br/3/tutorial/classes.html)
