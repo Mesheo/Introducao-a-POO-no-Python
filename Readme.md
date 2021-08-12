@@ -6,7 +6,7 @@
 * [Introdução](#introdução)
 * [Classes](#classes)
 * [Objetos](#objetos)
-* [Atributos e Métodos](#atributos-e-metodos)
+* [Atributos e Métodos](#atributos-e-métodos)
 * [Constructor](#constructor)
 * [No código](#no-codigo)
 
