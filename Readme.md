@@ -1,8 +1,8 @@
 # LEIA ESSE TEXTO NO MEDIUM!
-link: <a href="https://medium.com/@m.ledig.mic/breve-introdu%C3%A7%C3%A3o-as-classes-no-python-36a2fcb99b2e">medium.com/michel-ledig/uma-breve-introducao-as-classes-no-python</a>
+🔗 link <a href="https://medium.com/@m.ledig.mic/breve-introdu%C3%A7%C3%A3o-as-classes-no-python-36a2fcb99b2e">medium.com/michel-ledig/uma-breve-introducao-as-classes-no-python</a>
 
 ### Conta Bancária em POO 
-![imagem-exemplo](https://user-images.githubusercontent.com/71408872/129200259-3fc842af-7e93-438b-bfba-b704f1d3947c.jpg)
+![capa](https://user-images.githubusercontent.com/71408872/129227943-e9a253da-f2f2-4800-86ab-f374347b80ca.jpg)
 
 
 # 📚 Conteúdo
