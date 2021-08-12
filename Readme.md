@@ -1,6 +1,4 @@
 # LEIA ESSE TEXTO NO <a href="https://medium.com/@m.ledig.mic/breve-introdu%C3%A7%C3%A3o-as-classes-no-python-36a2fcb99b2e">MEDIUM</a> 
-🔗 link <a href="">medium.com/michel-ledig/uma-breve-introducao-as-classes-no-python</a>
-
 ![capa](https://user-images.githubusercontent.com/71408872/129227943-e9a253da-f2f2-4800-86ab-f374347b80ca.jpg)
 
 
