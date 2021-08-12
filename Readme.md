@@ -28,6 +28,41 @@ Com essa linha de raciocínio podemos nos aprofundar dentro de uma conta e divid
 
 * Aquelas que tangem o estado da conta, como o valor encontrado no saldo ou o número de saques que o usuário pode realizar são chamadas de ***Atributos***. Os atributos são as "características" de um objeto.
 
-* Já as propriedades que remetem a uma ação, como a mudança do titular da conta, ou visualizar seu extrato, são os ***Métodos***. Eles interagem como os atributos e são considerados como o "comportamento" do objeto. 
+* Já as propriedades que remetem a uma ação, como a mudança do titular da conta, ou visualizar seu extrato, são os ***Métodos***. Eles interagem como os atributos e são tratados como o "comportamento" do objeto. 
 
 >É possível existir um tipo de conta PlatinumMaster2000 que tem mais métodos disponíveis e valores diferentes em comparação a uma conta comum mas ainda sim, podemos afirmar que ela terá todos os métodos e atributos de uma ContaBancaria e isso é o que chamamos de **Herança**
+
+## Constructor 
+Geralmente gostamos de instanciar um objeto com características preestabelecidas. Para isso, precisamos de uma função que realiza tarefas assim que o objeto for instanciado, independente de ser chamada ou não. O nome dessa função é ***constructor***, e no python temos o método ***__init__()*** encarregado desse posto.
+
+Existem dois tipos de construtores:
+* Default Constructor
+```py
+class Carro:
+		#constructor sem argumentos
+		def __init__(self):
+				self.quantidade_de_rodas = 4
+		def quantas_rodas(self):
+				print(self.quantidade_de_rodas)
+
+carro1 = Carro()
+carro1.quantas_rodas() 
+# Output: 4
+```
+
+* Parameterized constructor
+```py
+class Carro:
+		#constructor com argumentos 
+		def __init__(self, qtd_rodas):
+				self.quantidade_de_rodas = qtd_rodas 
+		def quantas_rodas(self):
+				print(self.quantidade_de_rodas)
+
+carro1 = Carro(66)
+carro1.quantas_rodas()
+# Output: 66
+```
+
+Em resumo, o  ***Default constructor** não aceita parâmetros na hora de sua criação e pode instanciar objetos com atributos predefinidos sem o usuário escrever argumentos na hora de chamar a classe. 
+No caso do ***Parameterized constructor***, é necessário que o usuário passe argumentos na hora de instanciar um novo objeto. Somente assim o constructor terá as informações a serem assinaladas nos atributos iniciais.
