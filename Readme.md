@@ -8,7 +8,7 @@
 * [Objetos](#objetos)
 * [Atributos e Métodos](#atributos-e-métodos)
 * [Constructor](#constructor)
-* [No código](#no-codigo)
+* [No código](#no-código)
 
 ## Introdução
 Em paradigmas de programação, a POO (programação orientada a objetos) resolve problemas encontrados no paradigma procedural tentando aproximar as estruturas desenvolvidas no código de estruturas que existem no mundo real, e para isso essas estruturas precisam possuir as seguintes características inerentes: 
@@ -66,3 +66,36 @@ carro1.quantas_rodas()
 
 Em resumo, o  ***Default constructor*** não aceita parâmetros na hora de sua criação e pode instanciar objetos com atributos predefinidos sem o usuário escrever argumentos na hora de chamar a classe. 
 No caso do ***Parameterized constructor***, é necessário que o usuário passe argumentos na hora de instanciar um novo objeto. Somente assim o constructor terá as informações a serem assinaladas nos atributos iniciais.
+
+## No código
+```py
+class ContaBancaria:
+    def __init__(self, numero, titular, saldo=0, limite=0):
+        # Atributos da conta
+        self.numero = numero
+        self.titular = titular
+        self.saldo = saldo
+        self.limite = limite
+
+    # Método para sacar um certo valor
+    def sacar(self, valor):
+        print("\nRealizando saque...")
+        if (self.saldo - valor) < 0:  
+            print(f"Saque não realizado, dinheiro insuficiente na conta")
+        else:
+            self.saldo -= valor
+            print(f"Saque de R${valor} realizado, agora seu saldo é de R${self.saldo}")
+    
+    # Método para sacar um certo valor
+    def depositar(self, valor):
+        print("\nRealizando depósito...")
+        self.saldo += valor
+        print(f"Deposito de R${valor} realizado, agora seu saldo é de R${self.saldo}\n")
+     
+    # Método para visualizar o saldo 
+    def extrato(self):
+        print("\nColetando extrato...")
+        print(f"Seu saldo atual é de R${self.saldo}")
+```
+O termo ***"self"*** (que em outras linguagens pode ser representado como __"this"__) armazena a referência do endereço de memória onde está nosso objeto e, portanto, faz com que seja necessário acessar todos os atributos e métodos a partir dele. 
+Isso garante com que todas as caractéristicas de um objeto estejam anexadas a ele mesmo e sejam impossíveis de serem acessadas fora da classe em questão. 
