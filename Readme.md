@@ -116,3 +116,7 @@ conta1.depositar(250)
 ```
 Output:
 ![output](https://user-images.githubusercontent.com/71408872/129205278-6fa7fa69-246a-4214-b038-70c6740cba52.png)
+
+>Orientação a objetos é um assunto muito interessante e extenso que vale a pena pesquisar a respeito se você é inserido no mundo da programação.
+>Quem teve essa brilhante ideia foi Alan Kay que além de matemático era biólogo (Isso explica bastante coisa…)
+>Espero que esse material simples possa ajudar alguém a dar os primeiros passos no tópico
