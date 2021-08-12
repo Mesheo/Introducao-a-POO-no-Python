@@ -1,5 +1,5 @@
 # LEIA ESSE TEXTO NO MEDIUM!
-link: ![medium.com/michel-ledig/uma-breve-introducao-as-classes-no-python](https://medium.com/@m.ledig.mic/breve-introdu%C3%A7%C3%A3o-as-classes-no-python-36a2fcb99b2e)
+link: <a href="https://medium.com/@m.ledig.mic/breve-introdu%C3%A7%C3%A3o-as-classes-no-python-36a2fcb99b2e">medium.com/michel-ledig/uma-breve-introducao-as-classes-no-python</a>
 
 ### Conta Bancária em POO 
 ![imagem-exemplo](https://user-images.githubusercontent.com/71408872/129200259-3fc842af-7e93-438b-bfba-b704f1d3947c.jpg)
